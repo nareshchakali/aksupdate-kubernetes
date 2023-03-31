@@ -13,7 +13,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '1706cb8c-ef1f-42e6-a30b-3643c715cfbe'
   imageRepository: 'swetasgitaksupdate'
-  containerRegistry: 'demoacr8112021.azurecr.io'
+  containerRegistry: 'containerdemo43.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'demoacr8112021cbd7-auth'
